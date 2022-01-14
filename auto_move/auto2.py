@@ -49,19 +49,7 @@ while not rospy.is_shutdown():
     if abs(angle_to_goal - theta) > 1:
         speed.linear.x = 0.0
         speed.angular.z = 0.1
-
-    else if:
-        goal.x = 3
-        goal.y = 4
-        abs(angle_to_goal - theta) > 1:
-        speed.linear.x = 0.0
-        speed.angular.z = 0.1
-    else if:
-        goal.x = -1
-        goal.y = -1
-        abs(angle_to_goal - theta) > 1:
-        speed.linear.x = 0.0
-        speed.angular.z = 0.1
+        
     else
         speed.linear.x = 1.0
         speed.angular.z = 0.0
